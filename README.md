@@ -1,2 +1,2 @@
 # csi-281-final
-Final Project focusing on implementing the Diamond-Sqaure Algorithm
+Final Project for Data Structures and algorithms, focusing on implementing the Diamond-Sqaure Algorithm.
