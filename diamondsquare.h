@@ -5,7 +5,7 @@
 #ifndef DIAMONDSQUARE_H
 #define DIAMONDSQUARE_H
 #pragma once
-#include <rand>
+#include <random>
 
 class DiamondSquareClass {
   public:
