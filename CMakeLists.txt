@@ -7,5 +7,4 @@ include_directories(.)
 
 add_executable(csi_281_final
     diamondsquare.cpp
-    diamondsquare.h
     main.cpp)

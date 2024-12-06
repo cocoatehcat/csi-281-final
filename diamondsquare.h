@@ -4,20 +4,19 @@
 
 #ifndef DIAMONDSQUARE_H
 #define DIAMONDSQUARE_H
+
 #pragma once
 #include <random>
+#include <array>
+#include <cmath>
+#include <iostream>
 
+// Class that contains the functions
 class DiamondSquareClass {
   public:
-    void diamondSquare();
-    void diamondStep();
-    void squareStep();
-    int randomNumber(int min, int max);
-
-  private:
-    std::random_device rd;
+    void diamondSquare(int size);
+    int randomNumber(int range);
 
 };
-
 
 #endif //DIAMONDSQUARE_H
