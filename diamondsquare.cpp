@@ -49,7 +49,7 @@ void DiamondSquareClass::diamondSquare(int size) {
     while (chunk > 1) {
         int half = chunk / 2;
 
-        //Steps
+        // Steps
         // Square step
         for (int y = 0; y < size - 1; y += chunk) {
             for (int x = 0; x < size - 1; x += chunk) {
@@ -57,7 +57,7 @@ void DiamondSquareClass::diamondSquare(int size) {
             }
         }
 
-        // diamond step
+        // Diamond step
         for (int y = 0; y < size; y += half) {
             for (int x = (y + half) % chunk; x < size; x += chunk) {
                 // Computing points in range in array
